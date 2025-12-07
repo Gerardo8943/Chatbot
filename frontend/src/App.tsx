@@ -1,13 +1,11 @@
-import "./App.css";
 import RobotLogo from "./components/RobotLogo";
+import Chat from "./components/Chat";
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-gray-100 p-6">
       <RobotLogo />
-      <h2>Tu proyecto React está funcionando 🎉</h2>
+      <Chat />
     </div>
   );
 }
-
-export default App;
